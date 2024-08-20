@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+body{
+    background: linear-gradient(72deg, #8f00ff, #f90081);
+    width: 100%;
+    height: 100vh;
+}
+.ordinal{
+    background: linear-gradient(72deg, #8f00ff, #f90081);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 96%;
+    top: 88%;
+    border-radius: 50%;
+}
+.box{
+    width: 50px;
+    height: 25vh;
+    background-color: #ffffff1f;
+    position: absolute;
+    left: 95%;
+    top: 20%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 3px #fff;
+}
+.box .first{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #1e00ff, #00eaff);
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    border-radius: 50%;
+}
+.box .second{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #19ff00, #9C27B0);
+    position: absolute;
+    left: 10px;
+    top: 51px;
+    border-radius: 50%;
+}
+.box .third{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #ff00b3, #f2ff00);
+    position: absolute;
+    left: 10px;
+    top: 87px;
+    border-radius: 50%;
+}
+.box .fourth{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #ff5900, #00e0ff);
+    position: absolute;
+    left: 10px;
+    top: 125px;
+    border-radius: 50%;
+}
+h1{
+    color: #fff;
+    font-weight: 900;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+p{
+    width: 50%;
+    color: #fff;
+    font-weight: 900;
+    position: absolute;
+    left: 15%;
+    top: 46%;
+    letter-spacing: 1px;
+}
+ul{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3%;
+    left: 65%;
+}
+a{
+    color: #fff;
+    padding-right: 50px;
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 2%;
+}
